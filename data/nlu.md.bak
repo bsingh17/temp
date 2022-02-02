@@ -1,0 +1,333 @@
+## intent:greet
+- Hi
+- Hey
+- Hi bot
+- Hey bot
+- Hello
+- Hey there
+- good morning
+- hi again
+- hi folks
+- hi Mister
+- hi pal!
+- hi there
+- greetings
+- hello everybody
+- hello is anybody there
+- hello robot
+- hi
+
+
+## intent:affirm
+- yes
+- yes sure
+- absolutely
+- for sure
+- definitely
+- yeah
+- si
+- ok
+- okay
+- loved it
+
+## intent:deny
+- no
+- try another
+- sorry,this is not what i wanted
+- uh no
+- noope
+- do you have something else
+- no this does not work for me
+- another one please
+- i don't like this one
+- give me another
+- No stop
+- STOP
+- stop
+- wait
+- i dont want to continue
+- do not continue
+- stop the process
+- leave it
+- stop everything
+
+
+## intent: salutation
+- bye 
+- good bye
+- thank you
+- see you again
+- see ya
+- bye bye
+- goodbye
+- meet you again
+- see you
+- ok
+
+## intent: book_flight
+- hey bot i want to book a ticket from [Indore](start) to [Chennai](destination)
+- bot can you find a flight for me from [Bhopal](start) to [Jabalpur](destination)
+- bot i want to board a flight from [Delhi](start) to [Pune](destination)
+- hey i want to book a flight from [Pune](start) to [mumbai](destination)
+- hey i want to book a flight from [Chennai](start) to [Hyderabad](destination)
+- hey i want to book a flight from [Delhi](start) to [Kolkata](destination)
+- is there a flight available from [Chennai](start) to [Pune](destination)
+- i want to board a flight from [Banglore](start) to [Hyderabad](destination)
+- i am looking for a flight from [Pune](start) to [Surat](destination)
+- hey bot book a flight from [Delhi](start) to [Goa](destination)
+- Help me to book a flight from [Mumbai](start) to [Nagpur](destination)
+- book a flight from [Jaipur](start) to [Patna](destination)
+- can you book a flight for me from [Pune](start) to [Jaipur](destination)
+- book a flight for me from [Mumbai](start) to [Patna](destination)
+- book my flight from [Delhi](start) to [Patna](destination)
+- i want to book flight from [Indore](start) to [Delhi](destination)
+- hey is there any flight from [Bhopal](start) to [Patna](destination)
+- check if there is a flight from [Bhopal](start) to [Indore](destination)
+- please let me know if there is any flight from [Pune](start) to [Chennai](destination)
+- hey is there any filght from [Chennai](start) to [Delhi](destination)
+- flights originating from [Mumbai](start) to [Delhi](destination)
+- [Mumbai](start) to [Indore](destination) flights
+- I want to travel from [Mumbai](start) to [Pune](destination)
+- hey bot i am looking to travel from [Delhi](start) to [Goa](destination)
+- All flight from [Mumbai](start) to [Indore](destination)
+- hey i am looking to book flight from [Pune](start) to [Delhi](destination)
+- i want to book flight from [Jaipur](start) to [Mumbai](destination)
+- [pune](start) to [chennai](destination) flight 
+- book flight from [Bhopal](start) to [Goa](destination)
+
+
+## intent: get_flight_status
+- bot i want to check my flight status
+- hey help me to check filght status
+- what is my flight status
+- hey let me know my flight status
+- what is my flight status
+- is my flight delayed
+- hey can you let me know if my flight is delayed
+- hey let me know the status of my flight 
+- let me know the status of the flight
+- can you tell me the flight status
+- is my flight on time
+- can you check if my flight is on time
+- hey tell me if my flight is on time
+- let me know if my flight is delayed
+- hey bot check if my flight has arrived
+- hey has my flight landed 
+- has my flight landed 
+- has my flight arrived at the destination gate 
+- hey is my flight departed 
+- hey tell me my flight status
+- can you let me know about the flight status
+- kindly let me know my flight status
+- want to know flight status of [ABC652](pnr)
+- check flight status of [X9635Q](pnr)
+- my pnr is [D56SJD](pnr) tell me my flight status
+- hey my pnr is [F5G56D](pnr) can you tell me the status of my flight
+- my pnr number is [P4D5RF](pnr) can you let me know the status of my flight
+- hey bot my pnr number is [GHJ789](pnr) can you let me know flight status
+- need flight status pnr is [S45S6P](pnr)
+- i need the flight status for my pnr [45DPL6](pnr)
+- hey bot my pnr is [jhg789](pnr) get me the flight status
+
+## intent: get_flight_schedule
+- hey can you get me the flight schedule
+- hey tell me the schedule of my flight
+- can you tell me the schedule of flight
+- i want to know the flight schedule
+- get the flight schedule
+- what time filght is going to arrive
+- what is the arrival time of flight
+- what is the departure time of flight
+- hey tell me the departure time of flight
+- what is the arrival and departure time
+- i want to check the arrival time
+- had the arrival or departure time changes
+- is there any chnage in arrival and departure time
+- want to know the updated departure time
+- hey what time is the time of flight departure
+- what time flight will depart
+- what time the flight will arrive 
+- share some information on flight arrival
+- can you tell me the flight schedule
+- i want to know the flight schedule
+- i want to know the schedule of the flight
+- check the schedule for my flight
+- check schedule for my flight my pnr is [HG45K6](pnr)
+- let me know schedule of my flight my pnr is [GHF7S5](pnr)
+- i want to know schedule of of my flight my pnr is [IJH589](pnr)
+- hey i want to know the timings of my flight my pnr is [45DPL6](pnr)
+- my pnr number is [P4D5RF](pnr) can you let me know the schedule of my flight
+- hey bot my pnr number is [GHJ789](pnr) can you let me know schedule of my flight
+- bot i need flight schedule my pnr is [S45S6P](pnr)
+- hey bot i need the flight schedule my pnr is [45DPL6](pnr)
+- hey bot my pnr is [jhg789](pnr) can you let me know my flight schedule
+
+## intent: get_gate_number
+- can you let me know the boarding gate number
+- i want to know the boarding gate number
+- share with me the boarding gate number
+- hey i want to know the boarding gate details
+- from which gate do i need to board the flight
+- is there any change in the boarding gate
+- is there any change in the flight boarding gate
+- can you tell me if there is any change in the flight boarding gate
+- let me know if there are any changes in boarding gate
+- from which boarding gate do i need to board the flight
+- hey from which boarding gate do i need to board the flight
+- check for the boarding gate details 
+- i want to check for the boarding gate details
+- hey i want to know about the boarding gate
+- which boarding gate do i need baord the flight
+- from which boarding gate do i need to baord the flight
+- hey from which boarding gate do i need to get into flight
+- check boarding gate details
+- hey i want to know if there is any change in boarding gate number
+- want to know the baording gate number my pnr is [DFG456](pnr)
+- hey can you tell me boarding gate number for pnr number [HJK745](pnr) 
+- hey get me the baording gate number for pnr number [S4S5S8](pnr)
+- can you get me the boarding gate number for [SDF789](pnr) pnr number
+
+
+## intent: book_meal
+- i want to prebook my meal
+- hey i want to preebook my meal
+- i want to book my meal
+- heya i want to book meal
+- help me to book my meal
+- hey kindly help me to book my meal
+- can you help me to book my meal
+- i want to order for meal
+- hey help me to order for prebooking my meal
+- prebook meal
+- is there an option to prebook meal
+- is there any option to book meal
+- book meal
+- i want to prebook my meal
+- help me prebook my meal
+- can i book my meal
+- i want to check meal options
+- hey i want to check meal options 
+- want to check meal options
+- hey i want to check the meals available
+- are the meals available
+- hey i want to check if meals are available
+
+## intent: get_baggage_detail
+- i want to know at which belt baggage will be available
+- hey can you pleasae let me know at which baggage belt will my luggage be coming
+- from which baggage belt can i pick my luggage
+- from which baggage belt i will get my bags
+- i can get my luggage from which baggage belt
+- hey bot from which baggage belt will i be getting my luggage
+- kindly tell me from which baggage belt can i get my luggage
+- on which baggage belt will my luggage come
+- from which belt can i collect my luggage
+- on which baggage belt will i get my luggage
+- hey can you tell from which belt can i collect my luggage
+- hey please tell me from which belt will i be getting my luggage
+- from which belt can i collect luggage
+- can you tell me on which belt baggage will be coming for pnr number [HDG789](pnr)
+- hey do you know on which baggage belt will the luggage be coming for pnr number [JGD46D](pnr)
+- hey tell me on which baggage belt my bags would be coming my pnr is [HHF789](pnr)
+- hey want to know on which belt will my bags come my pnr is [UJ78P6](pnr)
+- do you know for pnr [45DPL6](pnr) on which baggage belt will the luggage come
+- hey can you please tell me on which belt will the luggage come for pnr number [GHF7S5](pnr)
+
+## intent: get_boarding_status
+- has the boarding started
+- hey is the boarding started
+- hey can you tell me if the boarding has started
+- hey can you please tell me if the boarding for the flight has started
+- has the boarding for flight started
+- has the flight boarding started
+- can you please tell me if the boarding for the flight has started 
+- hey please share the boarding status for my flight
+- want to check the boarding status of flight
+- check flight boarding status
+- want to know the boarding status of the flight
+- hey can you tell me the status of boarding flight
+- kindly share with me the flight boarding status
+- i want to know the boarding status of flight
+- i want to know the flight baording status
+- hey tell me the boarding status for the flight
+- i want to know the boarding status of my flight
+- boarding status of my flight
+- check boarding status 
+- need to check boarding status
+- bot my pnr number is [HHF789](pnr) can you tell me has the baording started
+- has the boarding started my pnr is [XG5L84](pnr)
+- hey i want to board the flight has it started my pnr is [D45KL8](pnr)
+- for pnr number [S45L6D](pnr) has the boarding started
+- hey for the pnr number [IJH589](pnr) baording started
+
+
+
+## intent:ask_help
+- will you help me please?
+- hey bot will you help me.
+- how can you will help me?
+- could you help me please?
+- can you help me please?
+- can you help me.
+- i need your help.
+- bot i need your help.
+- hey bot what you can do.
+- hey bot what you can do for me.
+- what you can do.
+- please help me.
+- hey bot please help me.
+- help me please.
+- i need help.
+- hey bot would you like to help me.
+- bot help me.
+- help me.
+- I am facing some trouble, please help me.
+- What all you can do?
+- Tell me what can you do for me?
+- what can you do for me?
+- in what all ways you can help me?
+- how can you solve my problem?
+- I am facing some difficulty?
+- Tell me what you can do?
+- hey bot help me.
+- help me to proceed further.
+- How should i proceed further?
+- How shall i proceed ahead?
+- How can i go ahead?
+- What all i need to do?
+- Can you help me to proceed?
+- What all tasks can you perform?
+- Can you help me to proceed further?
+- Can you show me the way to proceed further?
+- Show me the way to proceed further?
+- Show me the way to proceed ahead?
+- How can you help me?
+- Help me out bot
+- please help me out
+- i am facing trouble can you please help me
+- hey bot please help me 
+- hey bot help me out
+
+
+
+## intent: inform
+- my pnr is [HG45K6](pnr)
+- my pnr number is [S45L6D](pnr)
+- my pnr number is [S45S6P](pnr)
+- my pnr is [DFG456](pnr)
+- my pnr number is [D45KL8](pnr)
+- pnr number is [HJK745](pnr)
+- hey bot my pnr number is [GHJ789](pnr)
+- hey bot my pnr number is [UJ78P6](pnr)
+- hey bot my pnr number is [45DPL6](pnr)
+- hey bot my pnr number is [IJH589](pnr)
+- bot my pnr number is [AHD789](pnr)
+- hey bot my pnr number is [GHF7S5](pnr)
+- hey bot my pnr number is [JGH478](pnr)
+- my pnr number iS [FGH745](pnr)
+- my pnr number is [SDF789](pnr)
+- my pnr number is [S4S5S8](pnr)
+- bot my pnr number is [jhg789](pnr)
+- bot my pnr number is [HHF789](pnr)
+- bot kindly check my pnr number is [HGK459](pnr)
+- my pnr is [XG5L84](pnr)

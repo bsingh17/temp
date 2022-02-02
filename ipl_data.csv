@@ -1,0 +1,3 @@
+PNR,flight_number, Departure_city,Arrival_City,boarding_status,flight_status,departure_time,arrival_time,boarding_gate,baggage_detail
+XG5L84,6E 175,Indore,Pune,started,Delayed,17:00,20:00,12,3
+PJ5K56,6E 454,Delhi,Mumbai,closed,Diverted ,18:00,22:00,13,2

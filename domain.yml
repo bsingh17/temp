@@ -1,0 +1,63 @@
+intents:
+  - greet: {triggers: action_greet}
+  - affirm
+  - deny
+  - salutation
+  - book_flight: {triggers: action_book_flight}
+  - get_flight_status: {triggers: action_get_flight_status}
+  - get_flight_schedule: {triggers: action_get_flight_schedule}
+  - get_gate_number: {triggers: action_get_gate_number}
+  - book_meal
+  - get_baggage_detail: {triggers: action_get_baggage_detail}
+  - get_boarding_status: {triggers: action_get_boarding_status}
+  - ask_help: {triggers: action_ask_help}
+  - faq
+  - inform
+  
+
+  
+entities:
+  - start
+  - destination
+  - pnr
+  
+slots:
+  start:
+    type: unfeaturized
+  destination:
+    type: unfeaturized
+  pnr:
+    type: unfeaturized
+forms:
+  - action_get_flight_status
+  - action_get_flight_schedule
+  - action_get_gate_number
+  - action_get_baggage_detail
+  - action_get_boarding_status
+
+actions:
+  - utter_bye
+  - action_greet
+  - action_book_flight
+  - action_ask_help
+  - respond_faq
+  
+
+
+
+responses:
+ 
+
+  utter_bye:
+    - text: "Bye. It was nice talking with you. See you again."
+  utter_ask_pnr:
+    - text: "Kindly enter your pnr"
+ 
+  utter_default:
+    - text: "Sorry, I didn’t understand that"
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
